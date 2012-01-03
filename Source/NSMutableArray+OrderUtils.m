@@ -3,7 +3,7 @@
 //  
 //
 //  Created by Hector Zarate Rea (@hecktorzr) on 1/2/12.
-//  Copyright (c) 2012 hector.mieldemaple.com. All rights reserved.
+//  2012 hector.mieldemaple.com
 //
 
 #import "NSMutableArray+OrderUtils.h"
@@ -32,9 +32,11 @@
 
 -(void)reverse
 {
-    for (int i = 0; i < [self count] / 2; ++i) 
+    int count = [self count];
+    
+    for (int i = 0; i < count / 2; ++i) 
     {
-        int j = [self count] - i - 1;
+        int j = count - i - 1;
         
         id tempObject = [[self objectAtIndex:i] retain];
         
