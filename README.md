@@ -1,0 +1,13 @@
+NSMutableArray + OrderUtils
+===========================
+
+*Reverse*
+Reverse the content of a NSMutableArray. 
+
+Example: 
+
+[1, 2, 3, 4, 5] => [5, 4, 3, 2, 1]
+
+
+*Shuffle*
+Shuffle the elements of a NSMutableArray using the Fisher-Yates shuffle algorithm.
